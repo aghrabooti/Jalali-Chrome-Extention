@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 440px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgb(200, 196, 126);
+    direction: rtl;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: black;
+}
+
+#calender {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 12px;
+    table-layout: fixed;
+}
+
+#calender th,
+#calender td {
+    border: 1px solid sandybrown;
+    padding: 8px;
+    text-align: center;
+    width: 14.28%;
+}
+
+#calender th {
+    background-color:chocolate;
+    color:rgb(200, 196, 126)
+
+}
