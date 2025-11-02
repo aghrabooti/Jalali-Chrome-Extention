@@ -1,0 +1,24 @@
+{
+    "manifest_version" : 3,
+    "name": "Persian Calender Extention",
+    "version": "1.0",
+    "description": "An extention for Chrome for using Jalali Calender",
+
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "تقویم جلالی"
+    },
+
+    "permissions":["alarms","storage","notifications"],
+        
+
+    "background":{
+        "service_worker": "background.js"
+    },
+    
+    "icons":{
+        "48": "icon.png"
+    }
+
+
+}
